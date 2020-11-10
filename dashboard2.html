@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Managemen System</title>
+    <link rel="stylesheet" href="https://fontawesome.com/icons/caret-down?style=solid"></link>
+    <style>
+       header{
+           font-size: 40px;
+           font-weight: bolder;
+           font-family: 'Times New Roman', Times, serif;
+           background-color:#122b44;
+           color: white;
+           line-height: 60px;
+       }
+        body {
+            background: white;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .dropdown {
+            margin: 0 auto;
+        }
+
+        nav {
+            height: 50px;
+            background: #2c3e50;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            padding: 5px 0 0 80px;
+            width: 90px;
+            height: 45px;
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+            float: right;
+            margin-right: 0px;
+        }
+
+        nav ul li {
+            background: #2c3e50;
+            position: relative;
+            list-style: none;
+            display: inline-block;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 0 15px;
+            color: white;
+            text-decoration: none;
+            line-height: 50px;
+            font-size: 25px;
+        }
+
+        nav ul li a:hover {
+            background: #507294;
+        }
+
+        nav ul ul {
+            position: absolute;
+            top: 60px;
+            display: none;
+        }
+
+        nav ul li:hover>ul {
+            
+            display: block;
+        }
+
+        nav ul ul li {
+            padding: 3px;
+            
+            background-color:#4e6174;
+            width: 220px;
+            float: none;
+            display: list-item;
+            position: relative;
+            stop-opacity: inherit;
+        }
+
+        nav ul ul ul li {
+            font-size: 10px;
+            position: relative;
+            left: 500px;
+        }
+
+        .body {
+        position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Employee Management System   
+    </header>
+    <div class="dropdown">
+        <nav>
+            <img class="logo" src="ems.png">
+            <ul>
+                <li><a href="ems.html">Home</a></li>
+                <li><a href="#">Manpower Report</a></li>
+                <li><a href="#">Attendance <i class="fas fa-caret-down"></i></a></li>
+                <li><a href="#">Self Portal <i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#">Self Portal</a></li>
+                        <li><a href="#">Holiday</a></li>
+                        <li><a href="#">Policy Agrement</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Leave Management System <i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#">Leave/Tour/WFH Form</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Trainning Management System <i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#">My Details</a></li>
+                        <li><a href="#">Trainning Request</a></li>
+                    </ul>
+                </li>
+        </nav>
+    </div>
+   
+    <div class="body">
+        <center>
+            <img src="images/ems.jpeg" alt="">
+        </center>
+    </div>
+
+
+</body>
+
+</html>
